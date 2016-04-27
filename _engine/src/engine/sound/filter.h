@@ -11,6 +11,7 @@
 class FilterAudio
 {
 public:
+	float _Frequency;
 
 	FilterAudio()
 	{
@@ -51,7 +52,7 @@ protected :
 	}	
 
 private:
-	float _Frequency;
+
 	bool _Active;
 
 };

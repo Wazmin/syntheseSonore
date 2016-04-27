@@ -66,5 +66,8 @@
     <ClInclude Include="..\..\_engine\src\engine\sound\filter_lp.h">
       <Filter>engine\sound</Filter>
     </ClInclude>
+    <ClInclude Include="BufferReverb.h">
+      <Filter>engine\sound</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

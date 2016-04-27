@@ -42,6 +42,7 @@ protected :
 	{
 		_numEch += 1/_Frequency;
 
+
 		truc = _numEch * 2*M_PI * _freq + offset;
 
 		return sin(truc)*0.8;
